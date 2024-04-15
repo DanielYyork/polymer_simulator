@@ -23,7 +23,7 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 ```
 2. Create environment
 
-Creating an environment is useful as it creates a seperated container for all of the packages required in this project. 
+Creating an environment is useful as it creates a seperate container for all of the packages required in this project. 
 The following commands create an environment called "AmberTools23" and activate it.
    ```
    conda create --name AmberTools23 
@@ -38,6 +38,29 @@ The following commands create an environment called "AmberTools23" and activate 
    conda install -c conda-forge openmm
    conda install -c conda-forge rdkit
    ```
+   
+3.1 Install jupyter **notebook**
+
+    We need to install jupyter notebooks in this environment so we can run AmberTools from the notebook (in addition to running from commmand line)
+    
+    ```
+    sudo apt install python3-pip python3-dev
+    pip install jupyter
+    ```
+    
+3.2 Test jupyter notebook
+
+    In the terminal (or ubuntu terminal if using a windows machine), we need to enter the following:
+    
+    ```
+    jupyter notebook
+    ```
+    This will start a remote jupyter notebook server with the environment we have just set up.
+    
+    You will see the following after entering 'jupyter notebook':
+    
+    
+
 4. Ensure packages are available
 
    Before running any code, it is recommended to check the availiability of different packages.
