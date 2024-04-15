@@ -141,7 +141,7 @@ The following commands create an environment called "AmberTools23" and activate 
 
 5. Cloning the repository
 
-5.1
+5.1 Normal git clone method
     
    At the top of the github page there will a blue button labelled '<> code'. Click here and select 'HTTPS' and copy the link. No return to ubuntu and enter:
     
