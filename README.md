@@ -41,23 +41,23 @@ The following commands create an environment called "AmberTools23" and activate 
    
 3.1 Install jupyter **notebook**
 
-    We need to install jupyter notebooks in this environment so we can run AmberTools from the notebook (in addition to running from commmand line)
+   We need to install jupyter notebooks in this environment so we can run AmberTools from the notebook (in addition to running from commmand line)
     
-    ```
-    sudo apt install python3-pip python3-dev
-    pip install jupyter
-    ```
+   ```
+   sudo apt install python3-pip python3-dev
+   pip install jupyter
+   ```
     
 3.2 Test jupyter notebook
 
-    In the terminal (or ubuntu terminal if using a windows machine), we need to enter the following:
+   In the terminal (or ubuntu terminal if using a windows machine), we need to enter the following:
     
-    ```
-    jupyter notebook
-    ```
-    This will start a remote jupyter notebook server with the environment we have just set up.
+   ```
+   jupyter notebook
+   ```
+   This will start a remote jupyter notebook server with the environment we have just set up.
     
-    You will see the following after entering 'jupyter notebook':
+   You will see the following after entering 'jupyter notebook':
 
 <img width="510" alt="jupyter_tut" src="https://github.com/DanielYyork/polymer_simulator/assets/93723782/9718b875-aeb0-421b-a134-87e945d9b585">
 
