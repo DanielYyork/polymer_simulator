@@ -61,7 +61,7 @@ The following commands create an environment called "AmberTools23" and activate 
 
 <img width="510" alt="jupyter_tut" src="https://github.com/DanielYyork/polymer_simulator/assets/93723782/9718b875-aeb0-421b-a134-87e945d9b585">
 
-   No we can select the first URL (the one containing 'localhost:8888') and copy and paste it into the browser, this will launch jupyter notebook (fingers crossed!)
+   No we can select the first URL (the one containing 'localhost:8888') and copy and paste it into a browser, this will launch jupyter notebook (fingers crossed!)
     
    From there we can naviagate to the jupyter notebook folder and launch notebooks from there.
     
@@ -141,19 +141,32 @@ The following commands create an environment called "AmberTools23" and activate 
 
 5. Cloning the repository
 
-    To download these python scripts and jupyter notebooks it is necessary to clone the BCSW repository. **You will need a github account**.
-    This will give you access to all of the files in your own computer. The commands below should be executed in command line (linux/macos) or
-    ubuntu if you are using windows - this will create a new directory in you home directory.
+5.1
     
-    First you will need to obtain a personal access token from github, once you have logged into github, click on your profile in the top right and navigate to 
-    (settings --> developer settings --> personal access tokens --> Tokens (classic)). Here, click on "generate new token --> generate new token (classic)" and enter a note "clone repo" and in the tick boxes, select "repo". Now scroll to the bottom and "generate token".
-    This will give you a token you will need for the next step.
-    ```
-    cd 
-    git clone https://USERNAME:YOUR_TOKEN@github.com/MMLabCodes/BCSW.git
-    cd BCSW/examples/openmm/polymer_simulator
-    ```
-    The final command navigates to the directory containing the notebooks and scripts required for the tutorial.
+   At the top of the github page there will a blue button labelled '<> code'. Click here and select 'HTTPS' and copy the link. No return to ubuntu and enter:
+    
+   ```
+   git clone copied_link
+   ``` 
+   This will clone the repository into ubuntu and you will be able to access all the required files.
+   Don't forget you can naviagate through the file explorer to view these files (see section 4 for where linux files are located).
+    
+   If this method doesn't work, see the alternative method below.
+
+5.2 Alternative git clone method
+
+   To download these python scripts and jupyter notebooks it is necessary to clone the BCSW repository. **You will need a github account**.
+   This will give you access to all of the files in your own computer. The commands below should be executed in command line (linux/macos) or
+   ubuntu if you are using windows - this will create a new directory in you home directory.
+    
+   First you will need to obtain a personal access token from github, once you have logged into github, click on your profile in the top right and navigate to     (settings --> developer settings --> personal access tokens --> Tokens (classic)). Here, click on "generate new token --> generate new token (classic)" and enter a note "clone repo" and in the tick boxes, select "repo". Now scroll to the bottom and "generate token".
+   This will give you a token you will need for the next step.
+   ```
+   cd 
+   git clone https://USERNAME:YOUR_TOKEN@github.com/MMLabCodes/BCSW.git
+   cd BCSW/examples/openmm/polymer_simulator
+   ```
+   The final command navigates to the directory containing the notebooks and scripts required for the tutorial.
     
 6. Running Jupyter notebooks from ubuntu
 
