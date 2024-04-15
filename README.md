@@ -174,10 +174,17 @@ The following commands create an environment called "AmberTools23" and activate 
 
 ## 2. Jupyter notebooks
 
-IMPORTANT: Notebooks currently can't be launched from ubuntu, but this will be fixed soon. It should allow for easy execution of both command line and python orientated notebooks.
-
 There are a series of jupyter notebooks that contain examples and detailed explanations of how to carry out several tasks. In principal these jupyter notebooks are guides and explanations and there will be an associated python script.
 Here, short descriptions of each notebook are detailed and there is an order in which to view/execute them.
+
+We can launch jupyter notebooks from ubuntu with:
+
+   ```
+   jupyter notebook
+   ```
+No we can select the first URL (the one containing 'localhost:8888') and copy and paste it into a browser, this will launch jupyter notebook (fingers crossed!)
+ 
+From there we can naviagate to the jupyter notebook folder and launch notebooks from there.
 
 1. **parametrization.ipynb**
 
