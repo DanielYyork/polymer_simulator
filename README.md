@@ -58,6 +58,9 @@ The following commands create an environment called "AmberTools23" and activate 
     This will start a remote jupyter notebook server with the environment we have just set up.
     
     You will see the following after entering 'jupyter notebook':
+
+    ![image](https://github.com/DanielYyork/polymer_simulator/assets/93723782/f8ce3c7a-ce2c-41a9-80c0-9cbd04deb963)
+
     
     
 
