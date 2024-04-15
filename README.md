@@ -59,7 +59,8 @@ The following commands create an environment called "AmberTools23" and activate 
     
     You will see the following after entering 'jupyter notebook':
 
-![image](https://github.com/DanielYyork/polymer_simulator/assets/93723782/f8ce3c7a-ce2c-41a9-80c0-9cbd04deb963)
+<img width="510" alt="jupyter_tut" src="https://github.com/DanielYyork/polymer_simulator/assets/93723782/9718b875-aeb0-421b-a134-87e945d9b585">
+
 
     
     
