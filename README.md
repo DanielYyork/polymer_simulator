@@ -61,10 +61,14 @@ The following commands create an environment called "AmberTools23" and activate 
 
 <img width="510" alt="jupyter_tut" src="https://github.com/DanielYyork/polymer_simulator/assets/93723782/9718b875-aeb0-421b-a134-87e945d9b585">
 
-
+    No we can select the first URL (the one containing 'localhost:8888') and copy and paste it into the browser, this will launch jupyter notebook (fingers crossed!)
     
+    From there we can naviagate to the jupyter notebook folder and launch notebooks from there.
     
-
+    For now, we will close the notebook and ensure our other packages are working properly.
+    
+    To close the notebook, return to ubuntu hold "ctr" + "c" at the same time, you will be asked if you want to close jupyter notebook - yes!
+    
 4. Ensure packages are available
 
    Before running any code, it is recommended to check the availiability of different packages.
