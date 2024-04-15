@@ -164,7 +164,7 @@ The following commands create an environment called "AmberTools23" and activate 
    ```
    cd 
    git clone https://USERNAME:YOUR_TOKEN@github.com/MMLabCodes/BCSW.git
-   cd BCSW/examples/openmm/polymer_simulator
+   cd polymer_simulator
    ```
    The final command navigates to the directory containing the notebooks and scripts required for the tutorial.
     
